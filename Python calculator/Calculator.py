@@ -18,7 +18,7 @@ Select operation:
 3.Multiply
 4.Divide
 Enter a choice:
-''')
+''') #only this is is shown when you run the program, but no functionality 
  
     if operation == "1" or operation == "2" or operation == "3" or operation == "4":
         while True:
