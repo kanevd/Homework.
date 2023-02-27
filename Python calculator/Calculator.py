@@ -40,8 +40,8 @@ Enter a choice:
             try:
                 num1 = float(input("Enter first number: "))
                 num2 = float(input("Enter second number: "))
-                if operation == "4" and (num1 <= 0 or num2 <= 0):
-                    print("division by zero error handling"); #division by zero check
+                if operation == "4" and (num1 <= 0 or num2 <= 0): #division by zero check
+                    print("Division by zero error handling");
                     repeat()
                     return
                 elif operation == "4" and (num1 > 0 and num2 > 0):
