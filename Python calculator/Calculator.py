@@ -34,7 +34,7 @@ Select operation:
 Enter a choice:
 ''')
  
- #proceeding with the calculation if one of the correct operation is selected
+#proceeding with the calculation if one of the correct operation is selected
     if operation == "1" or operation == "2" or operation == "3" or operation == "4":
         while True:
             try:
